@@ -1,0 +1,37 @@
+.number {
+        display: flex;
+    align-items: center;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    border-bottom: 1px solid #000;
+}
+.number_title {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+color: #000;
+padding-bottom: 36px;
+}
+.number_container {
+    display: flex;
+border-radius: 20px;
+width: 150px;
+height: 35px;
+background: #d7d7d7;
+box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.25);
+}
+.number_input {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 12px;
+color: #7e7e7e;
+padding: 10px 45px 10px 10px;
+background-color: transparent;
+border :none;
+}
+.number_button {
+    border-radius: 0 20px 20px 0;
+fill: #000;
+border: none;
+background-color: #000000;
+}

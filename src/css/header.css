@@ -1,0 +1,108 @@
+.header {
+    width: 100%;
+    margin: 0 auto;
+    padding: 21px 0px;
+}
+.header-position {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.logo {
+    height: 40px;
+}
+.navigation {
+    display: flex;
+    column-gap: 50px;
+    margin-left: 81px;
+}
+.nav_item {
+    position: relative;
+}
+.nav_checkbox {
+    display: none;
+}
+.nav_checkbox ~ .dropdown {
+    
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    border: 1px solid black;
+    border-top: none;
+    border-radius: 0 0 20px 20px;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+}
+.nav_checkbox:checked ~ .dropdown { 
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+    overflow: hidden;
+}
+.nav_link_arrow {
+    font-weight: 400;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+
+}
+.nav_link_arrow::after {
+    content: '';
+      width: 7px;
+      height: 7px;
+
+      display: inline-block;
+
+      border-right: 1px solid var(--text-color);
+      border-bottom: 1px solid var(--text-color);
+
+      transform: rotate(45deg);
+      transition: transform 0.2s ease;
+}
+.nav_checkbox + .nav_link_arrow::after {
+    transform: rotate(225deg);
+}
+.dropdown_link {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    color: var(--text-color);
+}
+.theme-toggle {
+    border: none;
+    margin-left: 50px;
+    margin-right: 51px;
+    display: flex;
+    align-items: center;
+}
+.icon {
+    width: 40px;
+    height: 24px;
+}
+.icon_moon {
+    display: none;
+}
+body.dark-theme {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3))
+    url("./src/img/background.png") center no-repeat;
+    transition: color 0.75s ease;
+}
+.dark-theme .icon_sun {
+    display: none;
+}
+.dark-theme .icon_moon {
+    display: block;
+}
+/* .navigation_list {
+    display: flex;
+    column-gap: 50px;
+}
+.nav_link {
+    font-family: var(--font-family);
+} */

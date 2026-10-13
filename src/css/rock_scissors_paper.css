@@ -1,0 +1,41 @@
+.rock_scissors_paper {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    border-bottom: 1px solid black;
+    padding-block: 36px;
+}
+.rock_scissors_paper_title {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+color: #000;
+padding-bottom: 36px;
+    text-align: center;
+}
+.rock_scissors_paper_list {
+    display:flex;
+    justify-content: center;
+    column-gap: 38px;
+    padding-bottom: 38px;
+}
+.rock_scissors_paper_item_button {
+    border-radius: 20px;
+padding: 10px;
+width: 60px;
+height: 60px;
+background: #000;
+border: none;
+}
+.rock_scissors_paper_button {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 12px;
+color: #fff;
+    border-radius: 20px;
+padding: 10px 20px;
+width: 182px;
+height: 35px;
+background: #000;
+border :none;
+}
