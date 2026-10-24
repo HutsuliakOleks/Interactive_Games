@@ -1,15 +1,17 @@
-<section>
+<section class = "calculator" id= "4">
         <div class = "container">
-    <h2>Калькулятор</h2>
-    <div>
-        <input placeholder = 'Введіть число:' />
-        <button>+</button>
-        <button>-</button>
-        <button>*</button>
-        <button>/</button>
-        <input placeholder = 'Введіть число:' />
-                <button>=</button>
-                        <p>Результат</p>
+    <h2 class = "calculator_title">Калькулятор</h2>
+    <div  class = "calculator_container">
+        <input placeholder = 'Введіть число:' class = "calculator_input number_one"/>
+        <div class = "calculator_to_each">
+        <button type = 'button' class = "calculator_button" id = 'plus'>+</button>
+        <button type = 'button' class = "calculator_button" id = 'minus'>-</button>
+        <button type = 'button' class = "calculator_button"  id = 'multiply'>*</button>
+        <button type = 'button' class = "calculator_button" id = 'divide'>/</button>
+        </div>
+        <input placeholder = 'Введіть число:' class = "calculator_input  number_two"/>
+                <button type = 'button' class = "calculator_equal" id = 'equal'>=</button>
+                        <p class = "calculator_result">Результат</p>
     </div>
     </div>
 </section>

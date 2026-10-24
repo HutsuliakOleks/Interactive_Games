@@ -39,3 +39,8 @@ height: 35px;
 background: #000;
 border :none;
 }
+.score {
+    position: relative;
+    right: -304px;
+    top: -108px;
+}

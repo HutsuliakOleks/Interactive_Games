@@ -1,0 +1,21 @@
+.football {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+            border-bottom: 1px solid black;
+    padding-block: 36px;
+}
+.football_title {
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+color: #000;
+padding-bottom: 36px;
+}
+.football_field {
+    border: 2px solid #000;
+border-radius: 37px;
+width: 720px;
+height: 220px;
+background: #5abb58;
+}

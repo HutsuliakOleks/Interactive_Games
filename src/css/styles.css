@@ -12,6 +12,13 @@
 @import url('./yearbirth.css');
 @import url('./number.css');
 @import url('./rock_scissors_paper.css');
+@import url('./calculator.css');
+@import url('./time_calculator.css');
+@import url('./football.css');
+@import url('./three_numbers.css');
+@import url('./our_team.css');
+@import url('./choose_teached.css');
+@import url('./footer.css');
 
 :root {
   --font-family: "Montserrat Alternates", sans-serif;

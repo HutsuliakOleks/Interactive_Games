@@ -1,5 +1,10 @@
-import './js/modal.js'
-import './js/header.js'
+// import './js/modal.js'
+// import './js/header.js'
+// import './js/yearBirth.js'
+// import './js/number.js'
+import './js/rockScissorsPaper.js'
+import './js/calculator.js'
+import './js/convertor.js'
 
 const games =  [
     {
